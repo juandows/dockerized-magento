@@ -210,3 +210,11 @@ mysql:
   environment:
     MYSQL_ROOT_PASSWORD: <your-mysql-root-user-password>
 ```
+
+
+ALTER TABLE sales_bestsellers_aggregated_daily
+ADD product_type_id VARCHAR(32) AFTER product_id;
+ALTER TABLE sales_bestsellers_aggregated_monthly
+ADD product_type_id VARCHAR(32) AFTER product_id;
+ALTER TABLE sales_bestsellers_aggregated_yearly
+ADD product_type_id VARCHAR(32) AFTER product_id;
