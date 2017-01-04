@@ -211,6 +211,7 @@ mysql:
     MYSQL_ROOT_PASSWORD: <your-mysql-root-user-password>
 ```
 
+### Fix DB error: Column not found: 1054 Unknown column 'sales_bestsellers_aggregated_yearly.product_type_id'
 
 ```
 ALTER TABLE sales_bestsellers_aggregated_daily
